@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import React, { useState,useEffect } from "react";
 import * as math from "mathjs";// Import mathjs library for advanced calculations
 import Decimal from 'decimal.js';
-import evaluatex from 'evaluatex/dist/evaluatex';
+import evaluatex from 'evaluatex';
 
 const EditableMathField = dynamic(
   () => import("react-mathquill").then((mod) => mod.EditableMathField),
