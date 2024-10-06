@@ -2,7 +2,7 @@
 import dynamic from "next/dynamic";
 import React, { useState,useEffect } from "react";
 import * as math from "mathjs";// Import mathjs library for advanced calculations
-import evaluatex from 'evaluatex';
+import evaluatex from 'evaluatex/dist/evaluatex';
 import Decimal from 'decimal.js';
 
 const EditableMathField = dynamic(
